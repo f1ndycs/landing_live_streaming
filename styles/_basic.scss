@@ -33,6 +33,10 @@ hr {
     border: 1px solid v.$color_white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;

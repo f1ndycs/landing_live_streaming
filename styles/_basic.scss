@@ -1,3 +1,5 @@
+@use 'variables' as v;
+
 * {
     box-sizing: border-box;
 }
@@ -28,6 +30,7 @@ figure {
 hr {
     margin: 0;
     width: 100%;
+    border: 1px solid v.$color_white;
 }
 
 .container {
